@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MovTrack</string>
+    <string name="label_server">Server</string>
+    <string name="label_info">Esta pantalla se mostrará solo una vez.</string>
+    <string name="button_start">Iniciar</string>
+    <string name="error_connection">Falló la conexión al servidor</string>
+    <string name="file_browser">Explorador de archivos</string>
+    <string name="notification_channel">Por defecto</string>
+    <string name="permission_location_rationale">La aplicación requiere permiso de ubicación para mostrar la ubicación actual en el mapa</string>
+</resources>

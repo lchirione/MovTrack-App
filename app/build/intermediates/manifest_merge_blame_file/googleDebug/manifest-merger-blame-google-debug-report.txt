@@ -1,0 +1,260 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.traccar.movtrack"
+4    android:versionCode="30"
+5    android:versionName="2.19" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:7:5-67
+11-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:8:5-81
+12-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:8:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:9:5-79
+13-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:24:5-79
+14-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:24:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:25:5-68
+15-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:25:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Include required permissions for Advertising Id -->
+17-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+17-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+18    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+18-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /home/lchirione/.gradle/caches/transforms-3/e18eb19c2494ae9a3332056859d79491/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /home/lchirione/.gradle/caches/transforms-3/e18eb19c2494ae9a3332056859d79491/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+19
+20    <application
+20-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:11:5-29:19
+21        android:name="org.traccar.movtrack.GoogleMainApplication"
+21-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:8:9-46
+22        android:allowBackup="true"
+22-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:12:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.7.0] /home/lchirione/.gradle/caches/transforms-3/937aa9eabb52684825f750d5054160ef/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:13:9-43
+26        android:label="@string/app_name"
+26-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:14:9-41
+27        android:networkSecurityConfig="@xml/network_security_config"
+27-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:16:9-69
+28        android:theme="@style/AppTheme" >
+28-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:15:9-40
+29        <meta-data
+29-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:12:9-14:37
+30            android:name="google_analytics_adid_collection_enabled"
+30-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:13:13-68
+31            android:value="false" />
+31-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:14:13-34
+32        <meta-data
+32-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:16:9-18:63
+33            android:name="com.google.firebase.messaging.default_notification_channel_id"
+33-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:17:13-89
+34            android:value="@string/notification_channel_id" />
+34-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:18:13-60
+35        <meta-data
+35-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:20:9-22:59
+36            android:name="com.google.firebase.messaging.default_notification_icon"
+36-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:21:13-83
+37            android:resource="@drawable/ic_stat_notify" />
+37-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:22:13-56
+38
+39        <service
+39-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:24:9-28:19
+40            android:name="org.traccar.movtrack.ManagerMessagingService"
+40-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:24:43-82
+41            android:exported="false" >
+41-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:24:18-42
+42            <intent-filter>
+42-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:25:13-27:29
+43                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+43-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:26:17-78
+43-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:26:25-75
+44            </intent-filter>
+45        </service>
+46
+47        <activity
+47-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:19:9-27:20
+48            android:name="org.traccar.movtrack.MainActivity"
+48-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:20:13-41
+49            android:configChanges="keyboardHidden|orientation|screenSize"
+49-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:22:13-74
+50            android:exported="true" >
+50-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:21:13-36
+51            <intent-filter>
+51-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:23:13-26:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:24:17-69
+52-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:24:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:25:17-77
+54-->/home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:25:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <service
+58-->[com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:15:9-21:19
+59            android:name="com.google.firebase.components.ComponentDiscoveryService"
+59-->[com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:16:13-84
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+61            android:exported="false" >
+61-->[com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:17:13-37
+62            <meta-data
+62-->[com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:18:13-20:85
+63                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+63-->[com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:19:17-115
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:20:17-82
+65            <meta-data
+65-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+66                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+66-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+69                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+69-->[com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+71            <meta-data
+71-->[com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+72                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+72-->[com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+75                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+75-->[com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+77        </service>
+78
+79        <receiver
+79-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+80            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+80-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+81            android:enabled="true"
+81-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+82            android:exported="false" >
+82-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+83        </receiver>
+84
+85        <service
+85-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+86            android:name="com.google.android.gms.measurement.AppMeasurementService"
+86-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+87            android:enabled="true"
+87-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+88            android:exported="false" />
+88-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+89        <service
+89-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+90            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+90-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+91            android:enabled="true"
+91-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+93            android:permission="android.permission.BIND_JOB_SERVICE" />
+93-->[com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+94
+95        <receiver
+95-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+96            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+96-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+97            android:exported="true"
+97-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+98            android:permission="com.google.android.c2dm.permission.SEND" >
+98-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+99            <intent-filter>
+99-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:32:13-34:29
+100                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+100-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:33:17-81
+100-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:33:25-78
+101            </intent-filter>
+102        </receiver>
+103        <!--
+104             FirebaseMessagingService performs security checks at runtime,
+105             but set to not exported to explicitly avoid allowing another app to call it.
+106        -->
+107        <service
+107-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+108            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+108-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+109            android:directBootAware="true"
+109-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+110            android:exported="false" >
+110-->[com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+111            <intent-filter android:priority="-500" >
+111-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:25:13-27:29
+112                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+112-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:26:17-78
+112-->/home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:26:25-75
+113            </intent-filter>
+114        </service>
+115        <service
+115-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
+116            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+116-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
+117            android:exported="false" >
+117-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
+118            <meta-data
+118-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
+119                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+119-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
+120                android:value="cct" />
+120-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
+121        </service>
+122        <service
+122-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
+123            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+123-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
+124            android:exported="false"
+124-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
+125            android:permission="android.permission.BIND_JOB_SERVICE" >
+125-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
+126        </service>
+127
+128        <receiver
+128-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
+129            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+129-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:33:13-132
+130            android:exported="false" />
+130-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
+131
+132        <provider
+132-->[com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+133            android:name="com.google.firebase.provider.FirebaseInitProvider"
+133-->[com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+134            android:authorities="org.traccar.movtrack.firebaseinitprovider"
+134-->[com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+135            android:directBootAware="true"
+135-->[com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+136            android:exported="false"
+136-->[com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+137            android:initOrder="100" />
+137-->[com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8151336fff4f9092efef1ae3ac80dae2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8151336fff4f9092efef1ae3ac80dae2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8151336fff4f9092efef1ae3ac80dae2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+142    </application>
+143
+144</manifest>

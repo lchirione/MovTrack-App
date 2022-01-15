@@ -1,0 +1,4 @@
+#Fri Dec 31 17:32:01 ART 2021
+base.0=/home/lchirione/Documents/github/movtrack-project-app/app/build/intermediates/dex/googleRelease/mergeDexGoogleRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

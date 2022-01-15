@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/lchirione/Documents/github/movtrack-project-app/app/build/intermediates/incremental/mergeGoogleDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/lchirione/.gradle/caches/transforms-3/7d0dca87ddb89c558c2981ea5c8c2a2b/transformed/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

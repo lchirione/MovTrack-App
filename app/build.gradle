@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        applicationId 'org.traccar.movtrack'
+        minSdkVersion 19
+        targetSdkVersion 31
+        versionCode 30
+        versionName '2.19'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    flavorDimensions 'default'
+    productFlavors {
+        regular {
+            isDefault = true
+        }
+        google
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+    implementation 'androidx.preference:preference-ktx:1.1.1'
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.google.firebase:firebase-messaging:23.0.0'
+    implementation 'com.google.firebase:firebase-analytics:20.0.2'
+    googleImplementation platform('com.google.firebase:firebase-bom:29.0.3')
+    googleImplementation 'com.google.firebase:firebase-core'
+    googleImplementation 'com.google.firebase:firebase-crashlytics'
+
+}
+
+if (getGradle().getStartParameter().getTaskRequests().toString().contains('Google')) {
+    apply plugin: 'com.google.gms.google-services'
+    apply plugin: 'com.google.firebase.crashlytics'
+
+    task copyJson(type: Copy) {
+        from '../../environment/google-services'
+        into '.'
+        include 'traccar-manager-android.json'
+        rename('traccar-manager-android.json', 'google-services.json')
+    }
+
+    afterEvaluate {
+        preBuild.dependsOn copyJson
+    }
+}

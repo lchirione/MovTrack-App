@@ -1,0 +1,587 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [com.google.firebase:firebase-core:20.0.2] /home/lchirione/.gradle/caches/transforms-3/839043ebcc6ba28e6b8f1a926900ea9b/transformed/firebase-core-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /home/lchirione/.gradle/caches/transforms-3/0d3f775dc43d632ec234f4131fc6199c/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/lchirione/.gradle/caches/transforms-3/97cb5d5f643ad069cf7e4fafdd332a4b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /home/lchirione/.gradle/caches/transforms-3/c3dd4ddbd8b4aeb3686c66a7d19ff675/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /home/lchirione/.gradle/caches/transforms-3/48b685e9bee6aa4ec7418f90ffbbc3ef/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/lchirione/.gradle/caches/transforms-3/e064edaeacdd4b7f6f0a889db3812400/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/lchirione/.gradle/caches/transforms-3/3af2f8e9d8cdfff2410462631d82db8d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/lchirione/.gradle/caches/transforms-3/a92fd93b8ecc86f054181647b6fd6261/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference-ktx:1.1.1] /home/lchirione/.gradle/caches/transforms-3/041df9d1b46cbf19fc64592329c02792/transformed/preference-ktx-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/lchirione/.gradle/caches/transforms-3/0e341f15b4c1cb8f2f907f442bd4beee/transformed/fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/lchirione/.gradle/caches/transforms-3/3f314a0079f199c8f099fee9cffe6f1d/transformed/activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /home/lchirione/.gradle/caches/transforms-3/c25352ba71bf8f8c38714f1f1bed069c/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8e86dbd6fd67e33dff05bc149cebeebe/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/lchirione/.gradle/caches/transforms-3/7f6d052581624a29b14a15954f920659/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/lchirione/.gradle/caches/transforms-3/a2d4270c1fa730d7e71dbecf4eab25c8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/lchirione/.gradle/caches/transforms-3/965814acc19a17973ec47023f16ecf6b/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/lchirione/.gradle/caches/transforms-3/459d4ac4ee606d852ab35357a9a1ade1/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference:1.1.1] /home/lchirione/.gradle/caches/transforms-3/5b5aeb71716a58dbd5700436877ce41b/transformed/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/lchirione/.gradle/caches/transforms-3/7d0dca87ddb89c558c2981ea5c8c2a2b/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/lchirione/.gradle/caches/transforms-3/a9bd237080e197cc35cae2fbd506ffc6/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/lchirione/.gradle/caches/transforms-3/ac73bff711029c407aaf3462fcebcde1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/lchirione/.gradle/caches/transforms-3/71344478f911fe3a5d877f05ed36104c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/lchirione/.gradle/caches/transforms-3/5e215362ff0086fc046c7c537ad11654/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/lchirione/.gradle/caches/transforms-3/79ff1deab5b10b1d52f8b988a5f2dbf7/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/lchirione/.gradle/caches/transforms-3/8d118c499957b2ee83a4224363bccb19/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/lchirione/.gradle/caches/transforms-3/e698b0fcec94c5bccc1349aaa832b7f3/transformed/play-services-cloud-messaging-17.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/lchirione/.gradle/caches/transforms-3/1dc459179913202d4803c0a16ac8e319/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/lchirione/.gradle/caches/transforms-3/cc2d2d271cfca58113cef42cae14af84/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/lchirione/.gradle/caches/transforms-3/e18eb19c2494ae9a3332056859d79491/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/4a9ba1a2bbccc2332fc81ba73860d604/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /home/lchirione/.gradle/caches/transforms-3/b39ee4f890e61c5a8e41c14ae848b821/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/lchirione/.gradle/caches/transforms-3/0afa823236ebcfc031228fa4ec1ead8a/transformed/firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/lchirione/.gradle/caches/transforms-3/4d10387c834c11de61df68ccf4a41d89/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8151336fff4f9092efef1ae3ac80dae2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.2.4] /home/lchirione/.gradle/caches/transforms-3/d4c90a3d494a22b56e0c24b0346778ba/transformed/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/lchirione/.gradle/caches/transforms-3/29fe54012410bc1d91516d56728f89ea/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/lchirione/.gradle/caches/transforms-3/a3be6af08eea6e309cbd53a4ccdf0864/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/lchirione/.gradle/caches/transforms-3/738b4908d86c3bb2816acfa6d658cda2/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /home/lchirione/.gradle/caches/transforms-3/53c6810acf96145ba125c7847eaf73d7/transformed/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /home/lchirione/.gradle/caches/transforms-3/937aa9eabb52684825f750d5054160ef/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/lchirione/.gradle/caches/transforms-3/f5174c8dd173a0ec691dbbb6d01a68c8/transformed/transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/lchirione/.gradle/caches/transforms-3/60e365733ac508754ef3caffdf98a2c0/transformed/firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lchirione/.gradle/caches/transforms-3/e5068d17008989c17e3c529267a3ec61/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/lchirione/.gradle/caches/transforms-3/057418d4fe6d3e476b16f3ea3c5862ab/transformed/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/lchirione/.gradle/caches/transforms-3/0e1ac906dff3184d87a8c2a88320b13f/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/lchirione/.gradle/caches/transforms-3/ad83593e061c039e6487ef4627e33907/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/lchirione/.gradle/caches/transforms-3/46772e2aedcec46d258daa49fcf0d139/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/lchirione/.gradle/caches/transforms-3/e9cbef012a1cb05f8d9c31f9050d0371/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/lchirione/.gradle/caches/transforms-3/1f7cf1f76bd850c34018f897e5814477/transformed/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/lchirione/.gradle/caches/transforms-3/4587953946e2b995cf552ea3ef33bf4f/transformed/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/lchirione/.gradle/caches/transforms-3/a5e9be313769ad35149f1a9d8144deee/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/lchirione/.gradle/caches/transforms-3/b2176fa428d050e640b9ad8cf9098f09/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/lchirione/.gradle/caches/transforms-3/3cfc5b899ce6f5935e8c1f5fe02072f9/transformed/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/lchirione/.gradle/caches/transforms-3/d5bf20c9d26e103d7b90050e5655f8ca/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/lchirione/.gradle/caches/transforms-3/d5d5a2568f9397c2f5d95da16cacf9b2/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/lchirione/.gradle/caches/transforms-3/c1c8430c1abc21323c4742b7c9422165/transformed/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/lchirione/.gradle/caches/transforms-3/feab3f1c4c45b91a14c335456e25c015/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/lchirione/.gradle/caches/transforms-3/5ecd917ce13d15b7a5441ee4fefa52e2/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:5:5-35
+		INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:3:5-63
+uses-permission#android.permission.INTERNET
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/lchirione/.gradle/caches/transforms-3/e698b0fcec94c5bccc1349aaa832b7f3/transformed/play-services-cloud-messaging-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/lchirione/.gradle/caches/transforms-3/e698b0fcec94c5bccc1349aaa832b7f3/transformed/play-services-cloud-messaging-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/4a9ba1a2bbccc2332fc81ba73860d604/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/4a9ba1a2bbccc2332fc81ba73860d604/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:9:22-76
+application
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:11:5-29:19
+MERGED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:11:5-29:19
+MERGED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:11:5-29:19
+MERGED from [com.google.firebase:firebase-core:20.0.2] /home/lchirione/.gradle/caches/transforms-3/839043ebcc6ba28e6b8f1a926900ea9b/transformed/firebase-core-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:20.0.2] /home/lchirione/.gradle/caches/transforms-3/839043ebcc6ba28e6b8f1a926900ea9b/transformed/firebase-core-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.android.material:material:1.4.0] /home/lchirione/.gradle/caches/transforms-3/0d3f775dc43d632ec234f4131fc6199c/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /home/lchirione/.gradle/caches/transforms-3/0d3f775dc43d632ec234f4131fc6199c/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /home/lchirione/.gradle/caches/transforms-3/c3dd4ddbd8b4aeb3686c66a7d19ff675/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /home/lchirione/.gradle/caches/transforms-3/c3dd4ddbd8b4aeb3686c66a7d19ff675/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /home/lchirione/.gradle/caches/transforms-3/48b685e9bee6aa4ec7418f90ffbbc3ef/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /home/lchirione/.gradle/caches/transforms-3/48b685e9bee6aa4ec7418f90ffbbc3ef/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/lchirione/.gradle/caches/transforms-3/e064edaeacdd4b7f6f0a889db3812400/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/lchirione/.gradle/caches/transforms-3/e064edaeacdd4b7f6f0a889db3812400/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/lchirione/.gradle/caches/transforms-3/459d4ac4ee606d852ab35357a9a1ade1/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/lchirione/.gradle/caches/transforms-3/459d4ac4ee606d852ab35357a9a1ade1/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/lchirione/.gradle/caches/transforms-3/1dc459179913202d4803c0a16ac8e319/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/lchirione/.gradle/caches/transforms-3/1dc459179913202d4803c0a16ac8e319/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/lchirione/.gradle/caches/transforms-3/cc2d2d271cfca58113cef42cae14af84/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/lchirione/.gradle/caches/transforms-3/cc2d2d271cfca58113cef42cae14af84/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/lchirione/.gradle/caches/transforms-3/e18eb19c2494ae9a3332056859d79491/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/lchirione/.gradle/caches/transforms-3/e18eb19c2494ae9a3332056859d79491/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /home/lchirione/.gradle/caches/transforms-3/b39ee4f890e61c5a8e41c14ae848b821/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /home/lchirione/.gradle/caches/transforms-3/b39ee4f890e61c5a8e41c14ae848b821/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/lchirione/.gradle/caches/transforms-3/4d10387c834c11de61df68ccf4a41d89/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/lchirione/.gradle/caches/transforms-3/4d10387c834c11de61df68ccf4a41d89/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8151336fff4f9092efef1ae3ac80dae2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8151336fff4f9092efef1ae3ac80dae2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.7.0] /home/lchirione/.gradle/caches/transforms-3/937aa9eabb52684825f750d5054160ef/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /home/lchirione/.gradle/caches/transforms-3/937aa9eabb52684825f750d5054160ef/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lchirione/.gradle/caches/transforms-3/e5068d17008989c17e3c529267a3ec61/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lchirione/.gradle/caches/transforms-3/e5068d17008989c17e3c529267a3ec61/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /home/lchirione/.gradle/caches/transforms-3/937aa9eabb52684825f750d5054160ef/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:14:9-41
+	tools:ignore
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:17:9-48
+	android:icon
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:15:9-40
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:15:9-40
+	android:networkSecurityConfig
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:16:9-69
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:16:9-69
+	tools:replace
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:9:9-37
+	android:name
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:8:9-46
+activity#org.traccar.movtrack.MainActivity
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:19:9-27:20
+	android:exported
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:21:13-36
+	android:configChanges
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:22:13-74
+	android:name
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:20:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml:25:27-74
+uses-sdk
+INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml
+INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-core:20.0.2] /home/lchirione/.gradle/caches/transforms-3/839043ebcc6ba28e6b8f1a926900ea9b/transformed/firebase-core-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:20.0.2] /home/lchirione/.gradle/caches/transforms-3/839043ebcc6ba28e6b8f1a926900ea9b/transformed/firebase-core-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.4.0] /home/lchirione/.gradle/caches/transforms-3/0d3f775dc43d632ec234f4131fc6199c/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /home/lchirione/.gradle/caches/transforms-3/0d3f775dc43d632ec234f4131fc6199c/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/lchirione/.gradle/caches/transforms-3/97cb5d5f643ad069cf7e4fafdd332a4b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/lchirione/.gradle/caches/transforms-3/97cb5d5f643ad069cf7e4fafdd332a4b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /home/lchirione/.gradle/caches/transforms-3/c3dd4ddbd8b4aeb3686c66a7d19ff675/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /home/lchirione/.gradle/caches/transforms-3/c3dd4ddbd8b4aeb3686c66a7d19ff675/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /home/lchirione/.gradle/caches/transforms-3/48b685e9bee6aa4ec7418f90ffbbc3ef/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /home/lchirione/.gradle/caches/transforms-3/48b685e9bee6aa4ec7418f90ffbbc3ef/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/lchirione/.gradle/caches/transforms-3/e064edaeacdd4b7f6f0a889db3812400/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/lchirione/.gradle/caches/transforms-3/e064edaeacdd4b7f6f0a889db3812400/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/lchirione/.gradle/caches/transforms-3/3af2f8e9d8cdfff2410462631d82db8d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/lchirione/.gradle/caches/transforms-3/3af2f8e9d8cdfff2410462631d82db8d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/lchirione/.gradle/caches/transforms-3/a92fd93b8ecc86f054181647b6fd6261/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/lchirione/.gradle/caches/transforms-3/a92fd93b8ecc86f054181647b6fd6261/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference-ktx:1.1.1] /home/lchirione/.gradle/caches/transforms-3/041df9d1b46cbf19fc64592329c02792/transformed/preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] /home/lchirione/.gradle/caches/transforms-3/041df9d1b46cbf19fc64592329c02792/transformed/preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/lchirione/.gradle/caches/transforms-3/0e341f15b4c1cb8f2f907f442bd4beee/transformed/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/lchirione/.gradle/caches/transforms-3/0e341f15b4c1cb8f2f907f442bd4beee/transformed/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/lchirione/.gradle/caches/transforms-3/3f314a0079f199c8f099fee9cffe6f1d/transformed/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/lchirione/.gradle/caches/transforms-3/3f314a0079f199c8f099fee9cffe6f1d/transformed/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /home/lchirione/.gradle/caches/transforms-3/c25352ba71bf8f8c38714f1f1bed069c/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /home/lchirione/.gradle/caches/transforms-3/c25352ba71bf8f8c38714f1f1bed069c/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8e86dbd6fd67e33dff05bc149cebeebe/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8e86dbd6fd67e33dff05bc149cebeebe/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/lchirione/.gradle/caches/transforms-3/7f6d052581624a29b14a15954f920659/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/lchirione/.gradle/caches/transforms-3/7f6d052581624a29b14a15954f920659/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/lchirione/.gradle/caches/transforms-3/a2d4270c1fa730d7e71dbecf4eab25c8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/lchirione/.gradle/caches/transforms-3/a2d4270c1fa730d7e71dbecf4eab25c8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/lchirione/.gradle/caches/transforms-3/965814acc19a17973ec47023f16ecf6b/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/lchirione/.gradle/caches/transforms-3/965814acc19a17973ec47023f16ecf6b/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/lchirione/.gradle/caches/transforms-3/459d4ac4ee606d852ab35357a9a1ade1/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/lchirione/.gradle/caches/transforms-3/459d4ac4ee606d852ab35357a9a1ade1/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.1.1] /home/lchirione/.gradle/caches/transforms-3/5b5aeb71716a58dbd5700436877ce41b/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /home/lchirione/.gradle/caches/transforms-3/5b5aeb71716a58dbd5700436877ce41b/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/lchirione/.gradle/caches/transforms-3/7d0dca87ddb89c558c2981ea5c8c2a2b/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/lchirione/.gradle/caches/transforms-3/7d0dca87ddb89c558c2981ea5c8c2a2b/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/lchirione/.gradle/caches/transforms-3/a9bd237080e197cc35cae2fbd506ffc6/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/lchirione/.gradle/caches/transforms-3/a9bd237080e197cc35cae2fbd506ffc6/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/lchirione/.gradle/caches/transforms-3/ac73bff711029c407aaf3462fcebcde1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/lchirione/.gradle/caches/transforms-3/ac73bff711029c407aaf3462fcebcde1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/lchirione/.gradle/caches/transforms-3/71344478f911fe3a5d877f05ed36104c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/lchirione/.gradle/caches/transforms-3/71344478f911fe3a5d877f05ed36104c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/lchirione/.gradle/caches/transforms-3/5e215362ff0086fc046c7c537ad11654/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/lchirione/.gradle/caches/transforms-3/5e215362ff0086fc046c7c537ad11654/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/lchirione/.gradle/caches/transforms-3/79ff1deab5b10b1d52f8b988a5f2dbf7/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/lchirione/.gradle/caches/transforms-3/79ff1deab5b10b1d52f8b988a5f2dbf7/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/lchirione/.gradle/caches/transforms-3/8d118c499957b2ee83a4224363bccb19/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/lchirione/.gradle/caches/transforms-3/8d118c499957b2ee83a4224363bccb19/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/lchirione/.gradle/caches/transforms-3/e698b0fcec94c5bccc1349aaa832b7f3/transformed/play-services-cloud-messaging-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/lchirione/.gradle/caches/transforms-3/e698b0fcec94c5bccc1349aaa832b7f3/transformed/play-services-cloud-messaging-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/lchirione/.gradle/caches/transforms-3/1dc459179913202d4803c0a16ac8e319/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/lchirione/.gradle/caches/transforms-3/1dc459179913202d4803c0a16ac8e319/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/lchirione/.gradle/caches/transforms-3/cc2d2d271cfca58113cef42cae14af84/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/lchirione/.gradle/caches/transforms-3/cc2d2d271cfca58113cef42cae14af84/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/lchirione/.gradle/caches/transforms-3/e18eb19c2494ae9a3332056859d79491/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/lchirione/.gradle/caches/transforms-3/e18eb19c2494ae9a3332056859d79491/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/4a9ba1a2bbccc2332fc81ba73860d604/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/4a9ba1a2bbccc2332fc81ba73860d604/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /home/lchirione/.gradle/caches/transforms-3/b39ee4f890e61c5a8e41c14ae848b821/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /home/lchirione/.gradle/caches/transforms-3/b39ee4f890e61c5a8e41c14ae848b821/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/lchirione/.gradle/caches/transforms-3/0afa823236ebcfc031228fa4ec1ead8a/transformed/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/lchirione/.gradle/caches/transforms-3/0afa823236ebcfc031228fa4ec1ead8a/transformed/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/lchirione/.gradle/caches/transforms-3/4d10387c834c11de61df68ccf4a41d89/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/lchirione/.gradle/caches/transforms-3/4d10387c834c11de61df68ccf4a41d89/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8151336fff4f9092efef1ae3ac80dae2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8151336fff4f9092efef1ae3ac80dae2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.2.4] /home/lchirione/.gradle/caches/transforms-3/d4c90a3d494a22b56e0c24b0346778ba/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /home/lchirione/.gradle/caches/transforms-3/d4c90a3d494a22b56e0c24b0346778ba/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/lchirione/.gradle/caches/transforms-3/29fe54012410bc1d91516d56728f89ea/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/lchirione/.gradle/caches/transforms-3/29fe54012410bc1d91516d56728f89ea/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/lchirione/.gradle/caches/transforms-3/a3be6af08eea6e309cbd53a4ccdf0864/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/lchirione/.gradle/caches/transforms-3/a3be6af08eea6e309cbd53a4ccdf0864/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/lchirione/.gradle/caches/transforms-3/738b4908d86c3bb2816acfa6d658cda2/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/lchirione/.gradle/caches/transforms-3/738b4908d86c3bb2816acfa6d658cda2/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /home/lchirione/.gradle/caches/transforms-3/53c6810acf96145ba125c7847eaf73d7/transformed/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/lchirione/.gradle/caches/transforms-3/53c6810acf96145ba125c7847eaf73d7/transformed/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/lchirione/.gradle/caches/transforms-3/937aa9eabb52684825f750d5054160ef/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/lchirione/.gradle/caches/transforms-3/937aa9eabb52684825f750d5054160ef/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/lchirione/.gradle/caches/transforms-3/f5174c8dd173a0ec691dbbb6d01a68c8/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/lchirione/.gradle/caches/transforms-3/f5174c8dd173a0ec691dbbb6d01a68c8/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/lchirione/.gradle/caches/transforms-3/60e365733ac508754ef3caffdf98a2c0/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/lchirione/.gradle/caches/transforms-3/60e365733ac508754ef3caffdf98a2c0/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lchirione/.gradle/caches/transforms-3/e5068d17008989c17e3c529267a3ec61/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lchirione/.gradle/caches/transforms-3/e5068d17008989c17e3c529267a3ec61/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/lchirione/.gradle/caches/transforms-3/057418d4fe6d3e476b16f3ea3c5862ab/transformed/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/lchirione/.gradle/caches/transforms-3/057418d4fe6d3e476b16f3ea3c5862ab/transformed/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/lchirione/.gradle/caches/transforms-3/0e1ac906dff3184d87a8c2a88320b13f/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/lchirione/.gradle/caches/transforms-3/0e1ac906dff3184d87a8c2a88320b13f/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/lchirione/.gradle/caches/transforms-3/ad83593e061c039e6487ef4627e33907/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/lchirione/.gradle/caches/transforms-3/ad83593e061c039e6487ef4627e33907/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/lchirione/.gradle/caches/transforms-3/46772e2aedcec46d258daa49fcf0d139/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/lchirione/.gradle/caches/transforms-3/46772e2aedcec46d258daa49fcf0d139/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/lchirione/.gradle/caches/transforms-3/e9cbef012a1cb05f8d9c31f9050d0371/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/lchirione/.gradle/caches/transforms-3/e9cbef012a1cb05f8d9c31f9050d0371/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/lchirione/.gradle/caches/transforms-3/1f7cf1f76bd850c34018f897e5814477/transformed/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/lchirione/.gradle/caches/transforms-3/1f7cf1f76bd850c34018f897e5814477/transformed/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/lchirione/.gradle/caches/transforms-3/4587953946e2b995cf552ea3ef33bf4f/transformed/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/lchirione/.gradle/caches/transforms-3/4587953946e2b995cf552ea3ef33bf4f/transformed/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/lchirione/.gradle/caches/transforms-3/a5e9be313769ad35149f1a9d8144deee/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/lchirione/.gradle/caches/transforms-3/a5e9be313769ad35149f1a9d8144deee/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/lchirione/.gradle/caches/transforms-3/b2176fa428d050e640b9ad8cf9098f09/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/lchirione/.gradle/caches/transforms-3/b2176fa428d050e640b9ad8cf9098f09/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/lchirione/.gradle/caches/transforms-3/3cfc5b899ce6f5935e8c1f5fe02072f9/transformed/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/lchirione/.gradle/caches/transforms-3/3cfc5b899ce6f5935e8c1f5fe02072f9/transformed/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/lchirione/.gradle/caches/transforms-3/d5bf20c9d26e103d7b90050e5655f8ca/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/lchirione/.gradle/caches/transforms-3/d5bf20c9d26e103d7b90050e5655f8ca/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/lchirione/.gradle/caches/transforms-3/d5d5a2568f9397c2f5d95da16cacf9b2/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/lchirione/.gradle/caches/transforms-3/d5d5a2568f9397c2f5d95da16cacf9b2/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/lchirione/.gradle/caches/transforms-3/c1c8430c1abc21323c4742b7c9422165/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/lchirione/.gradle/caches/transforms-3/c1c8430c1abc21323c4742b7c9422165/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/lchirione/.gradle/caches/transforms-3/feab3f1c4c45b91a14c335456e25c015/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/lchirione/.gradle/caches/transforms-3/feab3f1c4c45b91a14c335456e25c015/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/lchirione/.gradle/caches/transforms-3/5ecd917ce13d15b7a5441ee4fefa52e2/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/lchirione/.gradle/caches/transforms-3/5ecd917ce13d15b7a5441ee4fefa52e2/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml
+INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml
+meta-data#google_analytics_adid_collection_enabled
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:12:9-14:37
+	android:value
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:13:13-68
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:16:9-18:63
+	android:value
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:18:13-60
+	android:name
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:17:13-89
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:20:9-22:59
+	android:resource
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:22:13-56
+	android:name
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:21:13-83
+service#org.traccar.movtrack.ManagerMessagingService
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:24:9-28:19
+	android:exported
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:24:18-42
+	android:name
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:24:43-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:25:13-27:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:26:17-78
+	android:name
+		ADDED from /home/lchirione/Documents/github/movtrack-project-app/app/src/google/AndroidManifest.xml:26:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:17:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:16:13-84
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.6] /home/lchirione/.gradle/caches/transforms-3/8c7e90d78b8b13c2573a9d104595b37c/transformed/firebase-crashlytics-18.2.6/AndroidManifest.xml:19:17-115
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/lchirione/.gradle/caches/transforms-3/e698b0fcec94c5bccc1349aaa832b7f3/transformed/play-services-cloud-messaging-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/lchirione/.gradle/caches/transforms-3/e698b0fcec94c5bccc1349aaa832b7f3/transformed/play-services-cloud-messaging-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/4a9ba1a2bbccc2332fc81ba73860d604/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/4a9ba1a2bbccc2332fc81ba73860d604/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/lchirione/.gradle/caches/transforms-3/e698b0fcec94c5bccc1349aaa832b7f3/transformed/play-services-cloud-messaging-17.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/lchirione/.gradle/caches/transforms-3/e698b0fcec94c5bccc1349aaa832b7f3/transformed/play-services-cloud-messaging-17.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/4a9ba1a2bbccc2332fc81ba73860d604/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/4a9ba1a2bbccc2332fc81ba73860d604/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/lchirione/.gradle/caches/transforms-3/dbe7d10f4c419b09f8b6ebec910d7b7e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/lchirione/.gradle/caches/transforms-3/cce0d094d77e4cc0cd4f50eb0220b2f2/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/lchirione/.gradle/caches/transforms-3/e698b0fcec94c5bccc1349aaa832b7f3/transformed/play-services-cloud-messaging-17.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/lchirione/.gradle/caches/transforms-3/e698b0fcec94c5bccc1349aaa832b7f3/transformed/play-services-cloud-messaging-17.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:32:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:33:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:33:25-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/lchirione/.gradle/caches/transforms-3/2a174ed9fedeaaf30de5e66c68c4fb57/transformed/firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /home/lchirione/.gradle/caches/transforms-3/c59cc7ce176f03c184adad494791ccb8/transformed/firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/lchirione/.gradle/caches/transforms-3/ca57c36640f555d98a336b3be30a2c76/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/lchirione/.gradle/caches/transforms-3/8e558b400e90c940c6931c20a846e1a7/transformed/transport-runtime-3.1.0/AndroidManifest.xml:33:13-132
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/lchirione/.gradle/caches/transforms-3/acee7e5771f2bb642cdc30c15f0a0cb0/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/lchirione/.gradle/caches/transforms-3/853f06d42e424fd2fab69d0e046d6cdc/transformed/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/lchirione/.gradle/caches/transforms-3/b12d7849768ca06a853dba0b80a26ee5/transformed/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/lchirione/.gradle/caches/transforms-3/e18eb19c2494ae9a3332056859d79491/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/lchirione/.gradle/caches/transforms-3/e18eb19c2494ae9a3332056859d79491/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8151336fff4f9092efef1ae3ac80dae2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8151336fff4f9092efef1ae3ac80dae2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/lchirione/.gradle/caches/transforms-3/8151336fff4f9092efef1ae3ac80dae2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58

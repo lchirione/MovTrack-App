@@ -1,0 +1,4 @@
+#Fri Jan 14 21:59:00 ART 2022
+base.0=/home/lchirione/Documents/github/movtrack-project-app/app/build/intermediates/dex/googleDebug/mergeDexGoogleDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

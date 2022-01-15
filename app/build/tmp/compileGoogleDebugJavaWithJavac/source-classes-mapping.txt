@@ -1,0 +1,2 @@
+org/traccar/movtrack/BuildConfig.java
+ org.traccar.movtrack.BuildConfig
